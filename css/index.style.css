@@ -1,13 +1,45 @@
-.title{
+.title {
   text-align: center;
 }
 
-.timer{
+.timer {
   background-color: black;
   color: white;
+  margin: 0 auto;
+  max-width: 500px;
+  display: flex;
+  /* Flexboxを有効にする */
+  justify-content: center;
+  /* 子要素を水平方向に中央寄せ */
+  align-items: center;
+  /* 子要素を垂直方向に中央寄せ */
+  gap: 10px;
+  /* 各要素の間にスペースを追加 */
 }
 
-.hours,.minutes,.seconds,.millisecond,.br{
-  display: inline;
+.hours,
+.minutes,
+.seconds,
+.millisecond,
+.br {
+  /* ここでのdisplay: inline;は不要になります */
+  /* 必要に応じてフォントサイズなどを調整 */
+  font-size: 2em;
 }
 
+.button_container {
+  display: flex;
+  /* Flexboxを有効にする */
+  justify-content: center;
+  /* 子要素を水平方向に中央寄せ */
+  align-items: center;
+  /* 子要素を垂直方向に中央寄せ */
+  gap: 10px;
+  /* 各要素の間にスペースを追加 */
+  margin-top: 30px;
+  text-align: center;
+}
+
+button {
+  font-size: large;
+}
