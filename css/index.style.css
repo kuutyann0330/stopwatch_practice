@@ -1,6 +1,15 @@
-.title {
-  text-align: center;
+.title-container{
+  display: flex;
+    /* Flexboxを有効にする */
+  justify-content: center;
+  /* 子要素を水平方向に中央寄せ */
+  align-items: center;
+  /* 子要素を垂直方向に中央寄せ */
+  gap: 10px;
+  /* 各要素の間にスペースを追加 */
 }
+
+
 
 .timer {
   background-color: black;
