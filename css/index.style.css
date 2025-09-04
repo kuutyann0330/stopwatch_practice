@@ -1,0 +1,13 @@
+.title{
+  text-align: center;
+}
+
+.timer{
+  background-color: black;
+  color: white;
+}
+
+.hours,.minutes,.seconds,.millisecond,.br{
+  display: inline;
+}
+
